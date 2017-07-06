@@ -22,7 +22,7 @@ class TheJourneyBeginsTest extends FunSuite with BeforeAndAfterAll {
     assert(centuryFromYear(200) == 2)
   }
 
-  test ("A string can be tested to see if it's a palindrom") {
+  test ("A string can be tested to see if it's a palindrome") {
     assert(checkPalindrome("aabaa") == true)
     assert(checkPalindrome("abac") == false)
     assert(checkPalindrome("a") == true)
