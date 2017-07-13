@@ -1,14 +1,13 @@
 import RichAssertions.AssertAll
 import TheJourneyBegins._
-import org.scalatest.{BeforeAndAfterAll, FunSuite}
+import org.scalatest.{FunSuite}
 
 
 /**
   * Created by buns on 7/6/2017.
   */
 class TheJourneyBeginsTest extends FunSuite
-  with BeforeAndAfterAll with AssertAll {
-
+  with AssertAll {
   test("Numbers can be added") {
     assertAll(
       (add(1, 2), 3),
